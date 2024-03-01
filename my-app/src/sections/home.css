@@ -1,0 +1,46 @@
+.nametag {
+    height: 40vmin;
+    pointer-events: none;
+    display: flex;
+    border-radius: 48px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+  }
+
+
+
+.text {
+    text-align: center;
+    font-family: inherit;
+    padding-top: 10%;
+    
+}
+.passions {
+    text-align: left;
+    font-family: inherit;
+    color: #000000;
+    font-weight: 500;
+    border-right: 2px solid #1F5673;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(22) 0.5s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+/* .nameTag {
+    height: 40vmin;
+    pointer-events: none;
+    display: flex;
+    border-radius: 48px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+    border-style: solid;
+} */
